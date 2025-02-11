@@ -8,12 +8,12 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="./css/style.css"> 
+        <link rel="stylesheet" href="./packages/css/styles.css"> 
 
-        <link rel="icon" href="./images/A.png" type="image/png">
+        <link rel="icon" href="./packages/images/A.png" type="image/png">
 
         <title>Portfolio | Ayush Rai</title>
     </head>
@@ -100,7 +100,7 @@
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home__blob-img" x="" xlink:href="images/ayush.jpg"/>
+                                    <image class="home__blob-img" x="" xlink:href="packages/images/ayush-1.jpg"/>
                                 </g>
                             </svg>
                         </div>
@@ -131,7 +131,7 @@
                 <span class="section__subtitle">My Introduction</span>
 
                 <div class="about__container container grid">
-                    <img src="images/ayush-2.jpg" alt="" class="about__img">
+                    <img src="packages/images/ayush-2.jpg" alt="" class="about__img">
                     <div class="about__data">
                         <p class="about__description">
                             As a passionate, Full Stack Developer, I thrive on the challenges of competitive programming and am constantly seeking opportunities to learn and grow. My expertise spans both front-end and back-end technologies, allowing me to build robust, scalable applications from concept to deployment.
@@ -152,7 +152,7 @@
                         </div> -->
 
                         <div class="about__buttons">
-                            <a download="" href="Resume.pdf" class="button button--flex">
+                            <a download="" href="packages/Resume.pdf" class="button button--flex">
                                 Download CV<i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
@@ -665,9 +665,23 @@
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
         <!--==================== PORTFOLIO 1 ====================-->
+
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./packages/images/project-3.png" alt="" class="portfolio__img">
+
+            <div class="portfolio_">
+                <h3 class="portfolio__title">ParkMate</h3>
+                <p class="portfolio__description">Parkmate is a parking booking system that enables users to seamlessly find and reserve parking spots in real time. It allows parking place owners to manage parking availability while providing customers with a hassle-free booking experience. </p>
+                <a href="https://parkmate-ayush.vercel.app/" class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+         <!--==================== PORTFOLIO 2 ====================-->
         
             <div class="portfolio__content grid swiper-slide">
-                <img src="./images/project-1.png" alt="" class="portfolio__img">
+                <img src="./packages/images/project-1.png" alt="" class="portfolio__img">
 
                 <div class="portfolio_">
                     <h3 class="portfolio__title">NewsMania</h3>
@@ -679,10 +693,10 @@
                 </div>
             </div>
 
-            <!--==================== PORTFOLIO 2 ====================-->
+            <!--==================== PORTFOLIO 3 ====================-->
         
             <div class="portfolio__content grid swiper-slide">
-                <img src="./images/project-2.png" alt="" class="portfolio__img">
+                <img src="./packages/images/project-2.png" alt="" class="portfolio__img">
 
                 <div class="portfolio_">
                     <h3 class="portfolio__title">Text to Speech Converter</h3>
@@ -694,20 +708,8 @@
                 </div>
             </div>
 
-            <!--==================== PORTFOLIO 3 ====================-->
         
-            <div class="portfolio__content grid swiper-slide">
-                <img src="./images/project-3.png" alt="" class="portfolio__img">
-
-                <div class="portfolio_">
-                    <h3 class="portfolio__title">WeatherApp</h3>
-                    <p class="portfolio__description">Provides live weather updates with an interactive and smooth user interface for a seamless experience.</p>
-                    <a href="https://ayushrai7.github.io/WeatherApp/" class="button button--flex button--small portfolio__button">
-                        Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
+            
                 </div>
 
             <!-- add arrows-->
@@ -864,10 +866,10 @@
     
 
     <!--==================== SWIPER JS ====================-->
-    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./packages/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
-    <script src="./js/main.js"></script>
+    <script src="./packages/js/main.js"></script>
 </body>
 
 </html>
