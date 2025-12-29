@@ -62,14 +62,6 @@ A modern, single-page portfolio website built with **Next.js** and **Tailwind CS
         `vercel deploy`
 
 
-📸 Screenshots
---------------
-
-### Homepage
-
-![Homepage Screenshot](https://i.ibb.co/0RThbyLD/screencapture-localhost-3000-2025-04-05-15-44-32.png)
-
-
 🤝 Contributing
 ---------------
 
