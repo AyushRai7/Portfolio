@@ -1,0 +1,14 @@
+{
+  "name": "Ayush Rai Portfolio",
+  "short_name": "Ayush",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "736x736",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone"
+}

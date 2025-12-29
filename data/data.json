@@ -1,0 +1,112 @@
+{
+    "data": {
+        "fullName": "Ayush Rai",
+        "navtext": "Ayush Rai",
+        "email": "ayushrai1729@gmail.com",
+        "titleArray": [
+            "Full-Stack Web Developer",
+            "Software Developer",
+            "AI/ML Enthusiast"
+        ],
+        "resumeLink": "https://drive.google.com/file/d/1Cy99LxeUM2S1LrKb9CLJDW37urXM5HxG/view?usp=drive_link",
+        "skills": [
+            "/icons/JavaScript.png",
+            "/icons/React.png",
+            "/icons/Nextjs.png",
+            "/icons/Tailwind.png",
+            "/icons/Bootstrap.png",
+            "/icons/Typescript.png",
+            "/icons/Python.png",
+            "/icons/Nodejs.png",
+            "/icons/ExpressJs.png",
+            "/icons/MongoDB.png",
+            "/icons/MySQL.png",
+            "/icons/PostgreSQL.png",
+            "/icons/Git.png",
+            "/icons/Github.png",          
+            "/icons/Vercel.png",
+            "/icons/Postman.png",    
+            "/icons/AWS.png",
+            "/icons/Docker.png"
+            
+
+        ],
+        "projects": [
+            {
+                "title": "Parking Reservation System",
+                "type": "ParkMate",
+                "description": "ParkMate is a full-stack parking reservation web application that allows users to search and book parking spots in real time, while admins can manage venues, slots, and bookings. Built with a Next.js frontend and a Node.js/Express backend, it features JWT-based authentication, role-based access control, Stripe payment integration, and a scalable MongoDB database.",
+                "techStack": [
+                    "Nextjs",
+                    "Nodejs",
+                    "TailwindCSS",
+                    "MongoDB",
+                    "Stripe"
+                ],
+                "category" : "Nextjs",
+                "image": "/images/projects/Parkmate.png",
+                "liveLink": "https://parkmate-ayush.vercel.app/",
+                "githubLink": "https://github.com/AyushRai7/ParkMate"
+            },
+             {
+                "title": "News Aggregation Platform",
+                "type": "Newsmania",
+                "description": "NewsMania is a full-stack MERN news aggregation platform that delivers real-time articles from multiple sources. Users can browse news by category, bookmark articles, and search content, while the system supports AI-powered summarization and multilingual translation for an enhanced reading experience.",
+                "techStack": [
+                    "React",
+                    "Nodejs",
+                    "Express",
+                    "HuggingFace API",
+                    "MongoDB"
+                ],
+                "category" : "React",
+                "image": "/images/projects/NewsMania.png",
+                "liveLink": "",
+                "githubLink": "https://github.com/AyushRai7/The-NewsMania"
+            },
+            {
+                "title": "Text-to-Speech Converter",
+                "type": "Text-to-Speech Converter",
+                "description": "Text-to-Speech Converter is a lightweight web application that converts written text into natural-sounding speech across multiple languages.",
+                "techStack": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "category" : "HTML",
+                "image": "/images/projects/Text-to-speech.png",
+                "liveLink": "https://ayushrai7.github.io/Text-to-Speech-Converter/",
+                "githubLink": "https://github.com/AyushRai7/Text-to-Speech-Converter"
+            },
+            {
+                "title": "Weather Application",
+                "type": "weathApp",
+                "description": "Weather App is a responsive web application that provides real-time weather information based on user-searched locations. Built with HTML, CSS, and JavaScript, it integrates a third-party weather API to display current conditions, temperature, and weather forecasts through a clean and intuitive interface.",
+                "techStack": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "category" : "HTML",
+                "image": "/images/projects/WeatherApp.png",
+                "liveLink": "https://ayushrai7.github.io/WeatherApp/",
+                "githubLink": "https://github.com/AyushRai7/WeatherApp"
+            }
+        ],
+        "about": {
+            "main": "I’m Ayush Rai, a passionate full-stack web developer based in India with a strong interest in building scalable and user-focused web applications.",
+            "skills": [
+                "Software Development",
+                "Full Stack Development",
+                "UI / UX Design"
+            ],
+            "journey": "Currently pursuing a B.Tech in Computer Science and Engineering, I have hands-on experience working with modern web technologies through personal projects, hackathons, and competitive programming.",
+            "passion": "I enjoy solving real-world problems through clean code and thoughtful system design. My recent work focuses on full-stack applications, authentication systems, payments, and performance optimization.",
+            "connect": "Explore my portfolio and let’s connect for collaborations!"
+        },
+        "socialLinks": {
+            "github": "https://github.com/AyushRai7",
+            "linkedin": "https://www.linkedin.com/in/ayush-rai-271985291/"
+        }
+    }
+}
