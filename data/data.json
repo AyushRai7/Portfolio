@@ -33,14 +33,15 @@
         ],
         "projects": [
             {
-                "title": "Parking Reservation System",
+                "title": "Parking Reservation Platform",
                 "type": "ParkMate",
-                "description": "ParkMate is a full-stack parking reservation web application that allows users to search and book parking spots in real time, while admins can manage venues, slots, and bookings. Built with a Next.js frontend and a Node.js/Express backend, it features JWT-based authentication, role-based access control, Stripe payment integration, and a scalable MongoDB database.",
+                "description": "ParkMate is a full-stack parking reservation web application that allows users to search and book parking spots in real time, while admins can manage venues, slots, and bookings. Built with a Next.js frontend and a Node.js/Express backend, it features NextAuth.js with Google OAuth, role-based access control, Stripe payment integration, and a scalable PostgreSQL database with Prisma ORM.",
                 "techStack": [
                     "Nextjs",
                     "Nodejs",
                     "TailwindCSS",
-                    "MongoDB",
+                    "PostgreSQL",
+                    "Prisma",
                     "Stripe"
                 ],
                 "category" : "Nextjs",
@@ -51,13 +52,14 @@
              {
                 "title": "News Aggregation Platform",
                 "type": "Newsmania",
-                "description": "NewsMania is a full-stack MERN news aggregation platform that delivers real-time articles from multiple sources. Users can browse news by category, bookmark articles, and search content, while the system supports AI-powered summarization and multilingual translation for an enhanced reading experience.",
+                "description": "NewsMania is a full-stack MERN news aggregation platform that delivers real-time articles from multiple sources. Users can browse news by category, bookmark articles, and search content, while the system supports AI-powered summarization and multilingual translation for an enhanced reading experience and fast response by redis caching.",
                 "techStack": [
                     "React",
                     "Nodejs",
                     "Express",
                     "HuggingFace API",
-                    "MongoDB"
+                    "MongoDB",
+                    "Redis"
                 ],
                 "category" : "React",
                 "image": "/images/projects/NewsMania.png",
